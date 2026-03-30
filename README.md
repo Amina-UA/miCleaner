@@ -8,7 +8,11 @@ You can install **miCleaner** directly from GitHub using the `remotes` package:
 ```r
 # install.packages("remotes")   # if not already installed
 remotes::install_github("Amina-UA/miCleaner")
+```
+
 If you have a local source package (e.g., miCleaner_0.1.0.tar.gz), you can install it with:
+
+```r
 install.packages("miCleaner_0.1.0.tar.gz", repos = NULL, type = "source")
 This will install the package and make all functions available.
 ```
