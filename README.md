@@ -36,6 +36,7 @@ cleaned CSV files (with estimated months removed)
 original files untouched
 per‑file logs
 a master log (when processing folders)
+
 🧭 Workflow Diagram
           ┌────────────────────┐
           │  Raw SIRENO CSVs   │
@@ -59,6 +60,7 @@ a master log (when processing folders)
           ┌────────────────────┐
           │  Master log (opt.) │
           └────────────────────┘
+
 
 📚 Example
 ```r
