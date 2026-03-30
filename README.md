@@ -16,29 +16,36 @@ This will install the package and make all functions available.
 ```r
 library(miCleaner)
 ```
-🚀 Usage
+🚀 Usage:
+
 The miCleaner package provides tools to identify and remove estimated months from length–frequency distributions produced by SIRENO.
 You can process individual files or entire folders, with optional parallel execution.
-🔹 Process a single file
+
+🔹 Process a single file:
+
 Use process_file() when you want to clean one specific CSV file:
 ```r
 library(miCleaner)
 result <- process_file("path/to/your/file.csv")
 ```
-🔹 Process an entire folder
+🔹 Process an entire folder:
+
 Use process_folder() to clean all CSV files inside a directory:
 ```r
 library(miCleaner)
 res <- process_folder("path/to/folder")
 ```
-🔹 Output structure
-After processing, you will find:
-cleaned CSV files (with estimated months removed)
-original files untouched
-per‑file logs
-a master log (when processing folders)
+🔹 Output structure:
 
-🧭 Workflow Diagram
+After processing, you will find:
+*cleaned CSV files (with estimated months removed)
+*original files untouched
+*per‑file logs
+*a master log (when processing folders)
+
+🧭 Workflow Diagram:
+```r
+
           ┌────────────────────┐
           │  Raw SIRENO CSVs   │
           └─────────┬──────────┘
@@ -62,8 +69,10 @@ a master log (when processing folders)
           │  Master log (opt.) │
           └────────────────────┘
 
+```
 
-📚 Example
+📚 Example:
+
 ```r
 library(miCleaner)
 
