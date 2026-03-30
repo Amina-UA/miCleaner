@@ -90,7 +90,12 @@ res <- process_folder(
 # Process a single file
 file_result <- process_file("2.4_clean_estimated_months/HKE_OTB_DWS_2019.CSV")
 ```
-🙌 Citation
+📄 License:
+
+This package is released under the CSIC-IEO License.
+
+🙌 Citation:
+
 If you use miCleaner in a report or publication, please cite:
 ```r
 TIFOURA, A. (2026). miCleaner: Tools for cleaning estimated months in SIRENO outputs. GitHub: https://github.com/Amina-UA/miCleaner
